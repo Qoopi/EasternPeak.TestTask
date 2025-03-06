@@ -2,8 +2,8 @@
 
 This project contains automated UI and API tests for:
 
-1. **Kitchen Applitools** - UI testing with Selenium WebDriver
-2. **ReqRes API** - API testing with RestSharp
+1. **[Kitchen Applitools](https://kitchen.applitools.com/)** - UI testing with Selenium WebDriver
+2. **[ReqRes API](https://reqres.in/)** - API testing with RestSharp
 
 This implementation is based on the [technical test assignment](./test_task.md) requirements.
 
@@ -55,6 +55,7 @@ EasternPeak.TestTask/
 ## How to Run the Tests
 
 To run test cases, navigate to the project root directory and execute the following commands:
+
 ### Build the Solution
 
 ```bash
@@ -117,4 +118,3 @@ The UI tests include visual validation of the drag-and-drop functionality:
 1. Each test captures a screenshot of the drop area after the drag-and-drop action
 2. The screenshot is compared to a verified baseline image
 3. The test passes if the images match within a defined threshold
-
