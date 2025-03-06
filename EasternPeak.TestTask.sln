@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{48D90D1D-1436-4778-8D2F-607062289B6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.ReqRes", "tests\Api.ReqRes\Api.ReqRes.csproj", "{683CFAE7-C5AC-49F1-8367-F8C5B003D8B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ui.KitchenApplitools", "tests\Ui.KitchenApplitools\Ui.KitchenApplitools.csproj", "{AF96A02D-4A0F-4ACF-8D47-EC418ADACFCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{683CFAE7-C5AC-49F1-8367-F8C5B003D8B7} = {48D90D1D-1436-4778-8D2F-607062289B6C}
+		{AF96A02D-4A0F-4ACF-8D47-EC418ADACFCF} = {48D90D1D-1436-4778-8D2F-607062289B6C}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{683CFAE7-C5AC-49F1-8367-F8C5B003D8B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{683CFAE7-C5AC-49F1-8367-F8C5B003D8B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{683CFAE7-C5AC-49F1-8367-F8C5B003D8B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{683CFAE7-C5AC-49F1-8367-F8C5B003D8B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF96A02D-4A0F-4ACF-8D47-EC418ADACFCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF96A02D-4A0F-4ACF-8D47-EC418ADACFCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF96A02D-4A0F-4ACF-8D47-EC418ADACFCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF96A02D-4A0F-4ACF-8D47-EC418ADACFCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
