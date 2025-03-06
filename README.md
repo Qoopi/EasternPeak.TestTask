@@ -1,4 +1,4 @@
-# Test Automation Framework
+# Eastern Peak Test Task: Kitchen Applitools & ReqRes 
 
 This project contains automated UI and API tests for:
 
