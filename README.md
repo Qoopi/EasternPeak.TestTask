@@ -115,6 +115,6 @@ The API tests verify the functionality of ReqRes API by:
 
 The UI tests include visual validation of the drag-and-drop functionality:
 
-1. Each test captures a screenshot of the drop area after the drag-and-drop action
+1. Each test captures a screenshot after the drag-and-drop action
 2. The screenshot is compared to a verified baseline image
 3. The test passes if the images match within a defined threshold
