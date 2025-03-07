@@ -49,7 +49,7 @@ EasternPeak.TestTask/
 ## Requirements
 
 - **.NET 9.0 SDK**
-- **Chrome browser** (for UI tests)
+- **Chrome,FireFox, or Edge browser** (for UI tests)
 - **Internet connection** (to access Kitchen Applitools and ReqRes API)
 
 ## How to Run the Tests
@@ -100,6 +100,9 @@ The UI tests verify the drag and drop functionality of Kitchen Applitools using:
   - JavaScript Executor fallback for better compatibility
 - **Visual Validation**: Screenshot comparison using Verify.ImageSharp.Compare
 - **Comprehensive Logging**: All test steps are logged with Serilog
+- **Test Utilities**: Helper methods for screenshot capture and comparison
+- **Test Resources**: Verified baseline images for visual validation
+- Tests supports Chrome, Firefox, and Edge browsers
 
 ### API Tests (RestSharp)
 
@@ -108,7 +111,6 @@ The API tests verify the functionality of ReqRes API by:
 - **API Client Interface**: `IReqResApiClient` defines the contract for API operations
 - **Centralized Endpoints**: `TestEndpoints` class manages all API endpoint URLs
 - **Modular Models**: Separate model classes for requests and responses
-- **Test Inheritance**: Common setup is extracted to the `TestBase` class
 - **Comprehensive Logging**: All HTTP requests and responses are logged
 
 ## Visual Validation
