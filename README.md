@@ -102,6 +102,7 @@ The UI tests verify the drag and drop functionality of Kitchen Applitools using:
 - **Comprehensive Logging**: All test steps are logged with Serilog
 - **Test Utilities**: Helper methods for screenshot capture and comparison
 - **Test Resources**: Verified baseline images for visual validation
+- Both screenshots one that verified and one that captured are saved in the `tests/Ui.KitchenApplitools/bin/Debug/net9.0/Resources/Screenshots/` folder
 - Tests could run using Chrome, Firefox, and Edge browsers
 
 ### API Tests (RestSharp)
